@@ -18,7 +18,6 @@ class Controls {
                 case 'ArrowUp': this.forward = true; break;
                 case 'ArrowDown': this.rev = true; break;
             }
-            console.table(this);
         };
 
         document.onkeyup = (event) => {
@@ -28,7 +27,6 @@ class Controls {
                 case 'ArrowUp': this.forward = false; break;
                 case 'ArrowDown': this.rev = false; break;
             }
-            console.table(this);
         };
     
     }
